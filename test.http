@@ -1,0 +1,23 @@
+### Get all categories
+GET localhost:3000/api/categories
+X-API-KEY: RAHASIA
+Accept: application/json
+
+### Get category by id
+GET localhost:3000/api/categories/2
+X-API-KEY: RAHASIA
+Accept: application/json
+
+### Create new category
+POST localhost:3000/api/categories
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "Apple Watch"
+}
+
+### Delete category by id
+DELETE localhost:3000/api/categories/1
+Accept: application/json
+Content-Type: application/json
